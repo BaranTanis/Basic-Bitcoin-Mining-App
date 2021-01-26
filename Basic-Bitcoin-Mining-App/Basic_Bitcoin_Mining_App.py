@@ -17,8 +17,8 @@ def mine(block_number, transactions, previous_hash, prefix_zeros):
 
 if __name__=='__main__':
     transactions='''
-    Dhaval->Bhavin->20,
-    Mando->Cara->45
+    Person1->Person2->20,
+    Person3->Person4->45
     '''
     difficulty=4
     import time
